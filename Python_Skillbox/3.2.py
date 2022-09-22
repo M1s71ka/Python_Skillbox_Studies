@@ -1,0 +1,6 @@
+first_quarter = int(input('Введите сумму за первый квартал: '))
+second_quarter = int(input('Введите сумму за второй квартал: '))
+third_quarter = int(input('Введите сумму за третий квартал: '))
+fourth_quarter = int(input('Введите сумму за четвертый квартал: '))
+result = (first_quarter + second_quarter) / (third_quarter + fourth_quarter)
+print(result)

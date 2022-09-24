@@ -2,12 +2,9 @@ x = int(input('Введите первое число: '))
 y = int(input('Введите второе число: '))
 z = int(input('Введите третье число: '))
 if x >= y:
-	if x >= z:
-		print('Максимальное число: ', x)
-	else:
-		print('Максимальное число: ', z)
-elif y >= x:
-	if y >= z:
-		print('Максимальное число: ', y)
-	else: 
-		print('Максимальное число: ', z)	
+	max = x
+else:
+	max = y
+if z > max:
+	max = z
+print(max)
